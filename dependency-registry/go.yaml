@@ -767,3 +767,9 @@ dependencies:
     - version: ">=v0.7.7"
       allowed_scopes:
         - api-platform
+
+  - module: github.com/zalando/go-keyring
+    versions:
+      - version: ">=v0.2.8"
+        allowed_scopes:
+          - identity-platform
